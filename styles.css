@@ -1,0 +1,27 @@
+body {
+  margin: 20px;
+
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.profile-img {
+  width: 150px;
+  transition: 0.15s;
+}
+
+.profile-img:hover {
+  transform: scale(1.02);
+}
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #264653;
+  color: #e9c46a;
+  border-bottom: 6px solid #e76f51;
+  border-radius: 8px;
+  box-shadow: 10px 5px 5px #2a9d8f;
+}
